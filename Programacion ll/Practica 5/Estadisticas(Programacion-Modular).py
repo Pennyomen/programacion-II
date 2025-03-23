@@ -7,9 +7,7 @@ def desviacion(numeros, prom):
     sumaCuadrados = sum((x - prom) ** 2 for x in numeros)
     return math.sqrt(sumaCuadrados / (len(numeros) - 1))
 
-
 numeros = list(map(float, input("Ingrese 10 números separados por espacio: ").split()))
-
 
 if len(numeros) != 10:
     print("Debe ingresar exactamente 10 números.")
