@@ -6,8 +6,8 @@ def getDiscriminante(a, b, c):
 def getRaiz1(a, b, Discriminante):
     return (-b + math.sqrt(Discriminante)) / (2 * a)
 
-def getRaiz2(a, b, discriminante):
-    return (-b - math.sqrt(discriminante)) / (2 * a)
+def getRaiz2(a, b, Discriminante):
+    return (-b - math.sqrt(Discriminante)) / (2 * a)
 
 def ecuacion(a, b, c):
     Discriminante = getDiscriminante(a, b, c)
